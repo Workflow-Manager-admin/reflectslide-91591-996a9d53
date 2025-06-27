@@ -1,0 +1,14 @@
+{
+  "name": "minimal-journal",
+  "extends": "@slidev/theme-default",
+  "colors": {
+    "primary": "#4F46E5",
+    "secondary": "#F59E42",
+    "accent": "#10B981"
+  },
+  "css": [
+    "./theme.css"
+  ],
+  "layout": "default",
+  "dark": false
+}

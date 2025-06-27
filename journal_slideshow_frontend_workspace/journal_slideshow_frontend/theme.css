@@ -1,0 +1,50 @@
+:root {
+  --slidev-theme-primary: #4F46E5;
+  --slidev-theme-accent: #10B981;
+  --slidev-theme-secondary: #F59E42;
+  --slidev-theme-text: #15161c;
+  --slidev-theme-background: #f8fafc;
+  --slidev-theme-surface: #fff;
+  --slidev-theme-border: #e5e7eb;
+  --slidev-font-family: 'Inter', 'Fira Sans', ui-sans-serif, system-ui;
+}
+
+/* Use flat white background, minimalistic border/shadow on slide */
+.slidev-layout {
+  background: var(--slidev-theme-background);
+  color: var(--slidev-theme-text);
+  font-family: var(--slidev-font-family);
+  font-size: 1.07em;
+  letter-spacing:0.01em;
+}
+.slidev-layout, .slidev-layout *
+{
+  box-sizing: border-box;
+}
+/* Buttons highlight */
+button, .slidev-button {
+  background: var(--slidev-theme-accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.25em;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(26,37,60,0.07);
+  transition: background 0.14s;
+}
+button:hover, .slidev-button:hover {
+  background: #059669;
+}
+a {
+  color: var(--slidev-theme-primary); text-decoration:none;
+}
+input, textarea {
+  font-family: inherit; font-size: inherit;
+}
+::-webkit-scrollbar {
+  width: 10px; background: #f0f4f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e7ef; border-radius:6px;
+}
